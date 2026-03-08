@@ -20,7 +20,7 @@
 ## 🚀 About Me
 
 ```java
-public class Berly {
+public class Marss {
 
     String university = "Universitas Sebelas Maret";
     String major = "Informatics";
