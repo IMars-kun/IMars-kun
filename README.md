@@ -39,4 +39,8 @@ public class Marss {
 
 ```
 
-![Snake animation](https://github.com/IMars-kun/IMars-kun/blob/output/github-contribution-grid-snake.svg)
+<picture align="center">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IMars-kun/IMars-kun/output/github-contribution-grid-snake-dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IMars-kun/IMars-kun/output/github-contribution-grid-snake.gif">
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/IMars-kun/IMars-kun/output/github-contribution-grid-snake-dark.gif">
+</picture>
