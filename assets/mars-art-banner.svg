@@ -1,0 +1,87 @@
+<svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgArt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0118"/>
+      <stop offset="55%" stop-color="#150826"/>
+      <stop offset="100%" stop-color="#05010c"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff4ecb"/>
+      <stop offset="50%" stop-color="#7a5cff"/>
+      <stop offset="100%" stop-color="#00e0ff"/>
+    </linearGradient>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#00e0ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blurGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <linearGradient id="txtGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff4ecb"/>
+      <stop offset="55%" stop-color="#a06bff"/>
+      <stop offset="100%" stop-color="#00e0ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="260" fill="url(#bgArt)"/>
+
+  <!-- constellation network, right side -->
+  <g stroke="url(#lineGrad)" stroke-width="1" opacity="0.55">
+    <line x1="560" y1="60" x2="640" y2="40"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="4s" repeatCount="indefinite"/></line>
+    <line x1="640" y1="40" x2="710" y2="90"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="3.4s" repeatCount="indefinite"/></line>
+    <line x1="710" y1="90" x2="790" y2="60"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="3.8s" repeatCount="indefinite"/></line>
+    <line x1="640" y1="40" x2="620" y2="120"><animate attributeName="opacity" values="0.5;0.15;0.5" dur="4.5s" repeatCount="indefinite"/></line>
+    <line x1="620" y1="120" x2="710" y2="90"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="3.1s" repeatCount="indefinite"/></line>
+    <line x1="620" y1="120" x2="560" y2="170"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="4.2s" repeatCount="indefinite"/></line>
+    <line x1="620" y1="120" x2="700" y2="180"><animate attributeName="opacity" values="0.2;0.6;0.2" dur="3.6s" repeatCount="indefinite"/></line>
+    <line x1="700" y1="180" x2="790" y2="150"><animate attributeName="opacity" values="0.6;0.2;0.6" dur="4s" repeatCount="indefinite"/></line>
+    <line x1="790" y1="60" x2="850" y2="120"><animate attributeName="opacity" values="0.2;0.5;0.2" dur="3.9s" repeatCount="indefinite"/></line>
+    <line x1="790" y1="150" x2="850" y2="120"><animate attributeName="opacity" values="0.5;0.2;0.5" dur="3.3s" repeatCount="indefinite"/></line>
+    <line x1="560" y1="170" x2="480" y2="140"><animate attributeName="opacity" values="0.2;0.55;0.2" dur="4.4s" repeatCount="indefinite"/></line>
+  </g>
+
+  <g>
+    <circle cx="560" cy="60" r="10" fill="url(#nodeGlow)" filter="url(#blurGlow)"/>
+    <circle cx="640" cy="40" r="14" fill="url(#nodeGlow)" filter="url(#blurGlow)"/>
+    <circle cx="710" cy="90" r="9" fill="url(#nodeGlow)" filter="url(#blurGlow)"/>
+    <circle cx="790" cy="60" r="11" fill="url(#nodeGlow)" filter="url(#blurGlow)"/>
+    <circle cx="620" cy="120" r="16" fill="url(#nodeGlow)" filter="url(#blurGlow)"/>
+    <circle cx="560" cy="170" r="9" fill="url(#nodeGlow)" filter="url(#blurGlow)"/>
+    <circle cx="700" cy="180" r="10" fill="url(#nodeGlow)" filter="url(#blurGlow)"/>
+    <circle cx="790" cy="150" r="8" fill="url(#nodeGlow)" filter="url(#blurGlow)"/>
+    <circle cx="850" cy="120" r="12" fill="url(#nodeGlow)" filter="url(#blurGlow)"/>
+    <circle cx="480" cy="140" r="7" fill="url(#nodeGlow)" filter="url(#blurGlow)"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="6s" repeatCount="indefinite"/>
+  </g>
+
+  <g fill="#ffffff">
+    <circle cx="560" cy="60" r="3"/>
+    <circle cx="640" cy="40" r="4"/>
+    <circle cx="710" cy="90" r="2.6"/>
+    <circle cx="790" cy="60" r="3.2"/>
+    <circle cx="620" cy="120" r="4.5"><animate attributeName="r" values="4;6;4" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="560" cy="170" r="2.6"/>
+    <circle cx="700" cy="180" r="3"/>
+    <circle cx="790" cy="150" r="2.4"/>
+    <circle cx="850" cy="120" r="3.4"/>
+    <circle cx="480" cy="140" r="2.2"/>
+  </g>
+
+  <!-- brush stroke underline -->
+  <path d="M 58 168 C 160 190, 260 190, 360 168" fill="none" stroke="url(#lineGrad)" stroke-width="4" stroke-linecap="round" stroke-dasharray="320" stroke-dashoffset="320">
+    <animate attributeName="stroke-dashoffset" from="320" to="0" dur="1.6s" fill="freeze" begin="0.3s"/>
+  </path>
+
+  <!-- artistic wordmark -->
+  <text x="55" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-style="italic" font-weight="700" fill="url(#txtGrad)">
+    Mars
+    <animate attributeName="opacity" values="0;1" dur="1s" fill="freeze"/>
+  </text>
+  <text x="60" y="60" font-family="Fira Code, Consolas, monospace" font-size="13" letter-spacing="4" fill="#8892b0">
+    DEVELOPER · DREAMER · BUILDER
+  </text>
+  <text x="60" y="205" font-family="Fira Code, Consolas, monospace" font-size="14" fill="#a06bff">
+    <tspan>crafting small worlds out of code, one repo at a time</tspan>
+  </text>
+</svg>
