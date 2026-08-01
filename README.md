@@ -134,8 +134,8 @@ I level up by breaking things and rebuilding them better. Every side project is 
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/PORTAL-05010c?style=for-the-badge&logo=vercel&logoColor=00e0ff)](https://niatkawin.titanialab.com)
-[![Email](https://img.shields.io/badge/MESSAGE-05010c?style=for-the-badge&logo=gmail&logoColor=ff4ecb)](mailto:youremail@example.com)
+[![Website](https://img.shields.io/badge/PORTAL-05010c?style=for-the-badge&logo=vercel&logoColor=00e0ff)](https:imarskun.my.id)
+[![Email](https://img.shields.io/badge/MESSAGE-05010c?style=for-the-badge&logo=gmail&logoColor=ff4ecb)](mailto:berlymarcellino25@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/NETWORK-05010c?style=for-the-badge&logo=linkedin&logoColor=00e0ff)](#)
 [![Instagram](https://img.shields.io/badge/VISUALS-05010c?style=for-the-badge&logo=instagram&logoColor=ff4ecb)](#)
 
