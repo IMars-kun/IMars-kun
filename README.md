@@ -4,7 +4,7 @@
 
 <br><br>
 
-<a href="https://your-github-username.github.io/your-github-username/interactive-terminal.html">
+<a href="https://IMars-kun.github.io/IMars-kun/interactive-terminal.html">
 <img src="https://img.shields.io/badge/▶_LAUNCH_INTERACTIVE_MODE-05010c?style=for-the-badge&labelColor=05010c&color=00e0ff" alt="Launch Interactive Mode"/>
 </a>
 
