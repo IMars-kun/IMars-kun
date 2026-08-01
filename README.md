@@ -18,12 +18,12 @@
 
 ```
 ┌───────────────────────────────────────────────────┐
-│  NAME     Mars                                     │
-│  CLASS    Full-Stack Developer / CS Student         │
-│  GUILD    TitaniaLab                                │
-│  LEVEL    7 — Rising Builder                         │
-│  XP       ████████████████░░░░  78%                 │
-│  STATUS   🟢 online, shipping something              │
+│  NAME     Mars                                    │
+│  CLASS    Full-Stack Developer / CS Student       │
+│  GUILD    TitaniaLab                              │
+│  LEVEL    7 — Rising Builder                      │
+│  XP       ████████████████░░░░  78%               │
+│  STATUS   🟢 online, shipping something           │
 └───────────────────────────────────────────────────┘
 ```
 
