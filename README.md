@@ -20,7 +20,7 @@
 ┌───────────────────────────────────────────────────┐
 │  NAME     Mars                                    │
 │  CLASS    Full-Stack Developer / CS Student       │
-│  GUILD    TitaniaLab                              │
+│  GUILD    Lord Sanztuy                            │
 │  LEVEL    7 — Rising Builder                      │
 │  XP       ████████████████░░░░  78%               │
 │  STATUS   🟢 online, shipping something           │
@@ -66,7 +66,7 @@ I level up by breaking things and rebuilding them better. Every side project is 
 <td><b>💍 NiatKawin</b><br><sub>digital wedding invitation platform</sub></td>
 <td>★★★★☆</td>
 <td>CMS + admin dashboard + QR check-in</td>
-<td>🟢 Live</td>
+<td>✅ Complete</td>
 </tr>
 <tr>
 <td><b>📸 SnapFrame</b><br><sub>real-time photobooth web app</sub></td>
